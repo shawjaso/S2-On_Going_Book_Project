@@ -16,6 +16,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'dynamic_form'
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
@@ -35,7 +37,7 @@ group :test, :development do
 end
 
 group :test do
-  gem 'cucumber-rails'
+  gem 'cucumber-rails','1.0.6'
   gem 'capybara'
   gem 'database_cleaner'
 end
