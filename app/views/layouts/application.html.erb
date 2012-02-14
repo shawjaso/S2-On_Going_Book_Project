@@ -15,8 +15,6 @@
 <% end %>
 
 <h1><%= link_to "Ticketee", root_path %></h1>
-<%= yield %>
-
 <nav>
 <%= admins_only do %>
     <%= link_to "Admin", admin_root_path %><br>
@@ -28,6 +26,7 @@
   <%= link_to "Sign in", new_user_session_path %>
 <% end %>
 </nav>
+<%= yield %>
 
 </body>
 </html>
