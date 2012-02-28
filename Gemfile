@@ -36,6 +36,7 @@ group :test, :development do
   gem 'rspec-rails', '~> 2.5'
   gem 'devise', '~> 1.4.3'
   gem 'cancan'
+  gem 'paperclip'
 end
 
 group :test do
