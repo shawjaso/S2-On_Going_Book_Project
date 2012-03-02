@@ -5,6 +5,7 @@
   <% else %>
     Ticketee
   <% end %>
+</title>
 <h2><%= @project.name %></h2>
 <%= admins_only do %>
 <%= link_to "Edit Project", edit_project_path(@project) %>
