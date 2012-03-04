@@ -1,5 +1,6 @@
 <br><small>Created by <%= @ticket.user.email %></small>
 <div id='ticket'>
+  <%= render @ticket.state if @ticket.state %>
   <h2><%= @ticket.title %></h2>
   <%= authorized?("edit tickets", @project) do %>
     <%= link_to "Edit Ticket", [:edit, @project, @ticket] %>
@@ -26,15 +27,15 @@
     </div>
   <% end %>
 
-</div>
+  <h3>Comments</h3>
+  <div id='comments'>
+    <% if @ticket.comments.exists? %> <co id='ch10_191_1' />
+      <%= render @ticket.comments.select(&:persisted?) %>
+    <% else %>
+      There are no comments for this ticket.
+    <% end %>
+  </div>
+  <%= render "comments/form" %>
 
-<h3>Comments</h3>
-<div id='comments'>
-  <% if @ticket.comments.exists? %> <co id='ch10_191_1' />
-    <%= render @ticket.comments.select(&:persisted?) %>
-  <% else %>
-    There are no comments for this ticket.
-  <% end %>
 </div>
-<%= render "comments/form" %>
 

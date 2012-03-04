@@ -15,6 +15,7 @@ Feature: Creating comments
       | Change a ticket's state | You should be able to create a comment |
     Given I am on the homepage
     And I follow "Ticketee" within "#projects"
+    Given there is a state called "Open"
     
   Scenario: Creating a comment
     When I follow "Change a ticket's state"
@@ -27,4 +28,12 @@ Feature: Creating comments
     When I follow "Change a ticket's state"
     And I press "Create Comment"
     Then I should see "Comment has not been created."
+
+  Scenario: Changing a ticket's state
+    When I follow "Change a ticket's state"
+    When I fill in "Text" with "This is a real issue"
+    And I select "Open" from "State"
+    And I press "Create Comment"
+    Then I should see "Comment has been created."
+    And I should see "Open" within "#ticket .state"
 
