@@ -5,10 +5,7 @@
     <%= f.text_field :title %>
   </p>
   <p>
-    <p>
-      <%= label_tag :tags %>
-      <%= text_field_tag :tags, params[:tags] %>
-    </p>
+    <%= render "tags/form" %>
     <%= f.label :description %><br>
     <%= f.text_area :description %>
     <% number = 0 %>
