@@ -26,9 +26,6 @@ class ProjectsController < ApplicationController
     end
   end
 
-  def show
-  end
-
   def edit
   end
 
@@ -46,6 +43,10 @@ class ProjectsController < ApplicationController
     @project.destroy
     flash[:notice] = "Project has been deleted."
     redirect_to projects_path
+  end
+
+  def show
+    @tickets = @project.tickets
   end
 
   private
