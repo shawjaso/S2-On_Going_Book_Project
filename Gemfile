@@ -29,7 +29,7 @@ end
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.5'
-  gem 'devise', '~> 1.4.3'
+  #gem 'devise', '~> 1.4.3'
   gem 'cancan'
   gem 'paperclip'
   gem 'searcher'
@@ -43,5 +43,6 @@ group :test do
   gem 'database_cleaner'
   gem 'email_spec'
   gem 'launchy'
+  gem 'devise'
 end
 
