@@ -1,0 +1,53 @@
+Date: Thu, 08 Mar 2012 23:11:25 -0800
+From: ticketee@gmail.com
+To: alice@ticketee.com
+Message-ID: <4f59ad1ded214_7bc3fe3e5034d3884160@Jason-Shaws-MacBook.local.mail>
+Subject: [ticketee] TextMate 2 - Release date
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f59ad1de8486_7bc3fe3e5034d388383b";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f59ad1de8486_7bc3fe3e5034d388383b
+Date: Thu, 08 Mar 2012 23:11:25 -0800
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f59ad1debcb6_7bc3fe3e5034d38839a3@Jason-Shaws-MacBook.local.mail>
+
+Hello!
+bob@ticketee.com (User) has just updated the Release date ticket for TextMate 2. They wrote:
+Is it out yet?
+You can view this ticket on line by going to: http://localhost:3000/projects/1/tickets/1
+
+
+
+----==_mimepart_4f59ad1de8486_7bc3fe3e5034d388383b
+Date: Thu, 08 Mar 2012 23:11:25 -0800
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f59ad1dec97b_7bc3fe3e5034d3884039@Jason-Shaws-MacBook.local.mail>
+
+<img src='http://ticketeeapp.com/images/logo.png' alt='Ticketee' />
+<p>
+  Hello.
+</p>
+<p>
+  bob@ticketee.com (User) has just updated the
+  Release date ticket for
+  TextMate 2. They wrote:
+</p>
+<blockquote>Is it out yet?</blockquote>
+<p>
+  You can <a href="http://localhost:3000/projects/1/tickets/1">view this ticket online here</a>
+</p>
+
+
+
+----==_mimepart_4f59ad1de8486_7bc3fe3e5034d388383b--
