@@ -1,0 +1,18 @@
+Date: Thu, 08 Mar 2012 22:49:29 -0800
+From: ticketee@gmail.com
+To: alice@ticketee.com
+Message-ID: <4f59a7f91252e_6a13ffb8e034d401071f@Jason-Shaws-MacBook.local.mail>
+Subject: [ticketee] TextMate 2 -=0A         Release date
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hello!
+bob@ticketee.com (User) has just updated the
+Release date ticket for
+TextMate 2. They wrote:
+Is it out yet?
+You can view this ticket on line by going to:
+http://localhost:3000/projects/1/tickets/1
+
