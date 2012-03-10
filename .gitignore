@@ -4,4 +4,6 @@ log/*.log
 tmp/**/*
 *.swp
 public/system
+mail.rb
+app_email.steps.rb
 
