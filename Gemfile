@@ -33,6 +33,7 @@ group :test, :development do
   gem 'cancan'
   gem 'paperclip'
   gem 'searcher'
+  gem 'gmail'
 end
 
 group :test do
